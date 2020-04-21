@@ -26,11 +26,11 @@ function bot_ui_ini() {
     }).then(function () {
         botui.message.add({
             delay: 1100,
-            content: "这里是 cungudafa"
+            content: "这里是 云开"
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一个可爱的女孩子~"
+                content: "一个玩魔方的boy~"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -69,7 +69,7 @@ function bot_ui_ini() {
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "是在计算机专业学物联网工程的程序媛"
+                    content: "是计算机专业的"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
@@ -77,20 +77,20 @@ function bot_ui_ini() {
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主修 Java 和 Python,略知 linux,偶尔也搞 HTML/CSS/JavaScript/Spring"
+                            content: "略知 linux,偶尔也搞 HTML/CSS/JavaScript/Spring"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "专业方向，物联网及智能家居(Internet of things)及机器视觉(machine version)"
+                                content: "现为打基础阶段，还没有确定专业方向"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "喜欢看韩剧和玩手游"
+                                    content: "喜欢玩魔方和追剧"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫cungudafa呢？🤔",
+                                            text: "为什么叫cloudYun呢？🤔",
                                             value: "why-mashiro"
                                         }]
                                     }).then(function (a) {
@@ -106,12 +106,12 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "cungudafa是村姑大发的拼音，大发在韩语发音中时很厉害的意思。"
+                content: "cloud+Yun不就是云云吗🤔"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么叫村姑呢？",
+                        text: "为什么叫云开呢？",
                         value: "why-cat"
                     }]
                 }).then(function (a) {
@@ -122,11 +122,11 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "我的游戏名叫村姑,后来也有人叫我村姑学姐 "
+                content: "出自诗句‘守得云开见月明’，是一种坚持和永不放弃的积极乐观的精神 "
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "希望自己打游戏很厉害吧，哈哈哈"
+                    content: "希望自己坚持学习，哈哈哈"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
@@ -143,7 +143,7 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "emmmm,csdn,github,都是cungudafa哦"
+                content: "emmmm,csdn,github,都是 云开 哦"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
