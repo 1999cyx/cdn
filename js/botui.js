@@ -90,7 +90,7 @@ function bot_ui_ini() {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫cloudYun呢？🤔",
+                                            text: "为什么叫yunyun呢？🤔",
                                             value: "why-mashiro"
                                         }]
                                     }).then(function (a) {
@@ -106,7 +106,7 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "cloud+Yun不就是云云吗🤔"
+                content: "不就是云云吗🤔"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
